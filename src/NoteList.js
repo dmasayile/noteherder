@@ -12,7 +12,7 @@ const NoteList = ({ notes, setCurrentNoteId }) => {
           return <Note
                    note={notes[noteId]}
                    key={noteId}
-                   setCurrentNoteId={setCurrentNoteId}
+                   setCurrentNoteID={setCurrentNoteID}
                  />
         }) }
       </ul>
